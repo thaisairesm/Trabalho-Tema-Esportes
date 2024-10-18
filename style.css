@@ -1,0 +1,107 @@
+* {
+    margin:auto; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+    background-color: #8ebce7d2;   
+}
+
+.header {
+    background-color: #2090d1e0;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1::selection{
+    background-color: #d7bbf1;
+    color: #080808;
+}
+
+.header p {
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.box{
+    background-color: #fcfcfd96;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    height: 50%;
+    text-align: justify; 
+}
+
+.footer{
+    background-color:#2090d1;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.parallax1{
+    background-image: url(https://cdn.pixabay.com/photo/2022/11/09/01/59/profile-7579739_1280.jpg);
+}
+
+.parallax2{
+    background-image: url(https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2024/01/000_33YU7ZD-scaled-aspect-ratio-512-320.jpg);
+}
+
+.parallax3{
+    background-image: url(https://cdn.pixabay.com/photo/2024/07/30/12/15/ai-generated-8932127_960_720.jpg);
+}
+
+.parallax4{
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-W5Ky8z6DD5zcVNNe3V_d9FnqSHrL_MiP4j3jFuGURnlgWXxW7lky7N-TptydZBWUWyNV47r6V25SReB4D16kAFUoGTrx8hTbIcFAxWlN8DrsV7W88vSrhTKNb1eMRYccjvaw3nunGRK7fEtKuN0KEdb93_R4oK3fxcPi5Rp5we_8R0th497J99zIhg/s1000/poa.jpg);
+}
+
+.parallax5{
+    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/07/rayssa_leal_olimpiada-e1722172556384.jpg?w=1200&h=900&crop=1);
+}
+
+.parallax6{
+    background-image: url(https://imagens.ebc.com.br/E2dmDmMV35PjGJqN8sJ4i2_a1To=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/rayssa_skate_dez_2023.jpg?itok=q35n2asg);
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 480px) {
+    .column{
+        flex: 1 1 100%;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+}
+
+div{
+    border-radius: 30px;
+    
+}
